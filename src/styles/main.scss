@@ -1,0 +1,113 @@
+@import './common/variables';
+@import './common/base';
+@import './components/navbar';
+@import './components/aboutMe';
+@import './components/interests';
+@import './components/skills';
+@import './components/projects';
+@import './components/experience';
+@import './components/contact';
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body{
+  @media (max-width: 900px) {
+    font-size: 125%;
+  }
+}
+
+.site-wrapper{
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.783);
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
+}
+header{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30vh;
+  .home-text{
+    white-space: nowrap;
+    padding: 5vh;
+    align-items: center;
+    .ayo{
+      padding-left: 3vh;
+    }
+  }
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+}
+
+h2{
+  padding: 3vh;
+}
+
+p{
+  text-align: justify;
+}
+
+.ayo .sd{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-30%);   
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 3.5s steps(44) 1s 1 normal both,
+              blinkTextCursor 500ms steps(200) infinite normal;
+              @media (max-width: 592px) {
+                animation: typewriter 2.5s steps(44) 0.5s 1 normal both,
+              blinkTextCursor 500ms steps(200) infinite normal;
+              }
+}
+@keyframes typewriter{
+  from{width: 300vh;}
+  to{width: 50%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@media (max-width: 600px) {
+  .home-text{
+    h1{
+      margin-left: 5%;
+      h2 {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  header{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+}
+.skills, .navbar, .contact {
+  a:hover {
+    border: none;
+    border-radius: 15%;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
