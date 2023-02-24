@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.068ac96f.css",
+    "main.js": "/Portfolio/static/js/main.7831bf40.js",
+    "static/media/project-1.png": "/Portfolio/static/media/project-1.fa21d99a05ebd90f8fb0.png",
+    "static/media/project-2.png": "/Portfolio/static/media/project-2.84f3162760ca6f521428.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.c556a176a8b7d49fb670.png",
+    "static/media/insomnia.png": "/Portfolio/static/media/insomnia.071813a35d3a047d99fc.png",
+    "static/media/css.png": "/Portfolio/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/js.png": "/Portfolio/static/media/js.dd49336437d9194e4d2d.png",
+    "static/media/vsCode.png": "/Portfolio/static/media/vsCode.a03b1b6a68bd90192437.png",
+    "static/media/superhero.png": "/Portfolio/static/media/superhero.4587eb427522027ef365.png",
+    "static/media/gym.png": "/Portfolio/static/media/gym.8a659c02d04a6c8ce2f2.png",
+    "static/media/tablePlus.png": "/Portfolio/static/media/tablePlus.27110b4fcf0072a2b7a9.png",
+    "static/media/GeneralAssembly.png": "/Portfolio/static/media/GeneralAssembly.afeb9f90c9f687a63b31.png",
+    "static/media/nodeJS.png": "/Portfolio/static/media/nodeJS.bc4b43cd5f20ba305059.png",
+    "static/media/mongoDB.png": "/Portfolio/static/media/mongoDB.62f6b1e4375f36d6eb26.png",
+    "static/media/Waitrose&Partners.svg.png": "/Portfolio/static/media/Waitrose&Partners.svg.6336b31a0a84d2c62d8c.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.3c7121a4975f5025504e.png",
+    "static/media/jQuery.png": "/Portfolio/static/media/jQuery.7aa78b15f2e92138f0f6.png",
+    "static/media/slack.png": "/Portfolio/static/media/slack.0c70ae08030483b5c6ff.png",
+    "static/media/react.png": "/Portfolio/static/media/react.44319306359c7112276d.png",
+    "static/media/postgreSQL.png": "/Portfolio/static/media/postgreSQL.6c5d698f195dac2fe5af.png",
+    "static/media/django.png": "/Portfolio/static/media/django.82147cd026cc41735e7d.png",
+    "static/media/Birkbeck.webp": "/Portfolio/static/media/Birkbeck.28e6f403f4a5cb8801ed.webp",
+    "static/media/npm.png": "/Portfolio/static/media/npm.061e65dec1a5ceee089a.png",
+    "static/media/bootstrap.svg": "/Portfolio/static/media/bootstrap.d180fe4cd44732fd70b35f650a76b99c.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.068ac96f.css.map": "/Portfolio/static/css/main.068ac96f.css.map",
+    "main.7831bf40.js.map": "/Portfolio/static/js/main.7831bf40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.068ac96f.css",
+    "static/js/main.7831bf40.js"
+  ]
+}
