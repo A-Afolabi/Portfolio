@@ -8,7 +8,7 @@ const Experience = () => {
     <section className="experience" id="Experience">
       <br />
       <br />
-      <h2>Experience</h2>
+      <h2>Experience & Education</h2>
       <div className="experience">
         <div className="waitrose">
           <div className="waitrose-titlesImg">
@@ -18,7 +18,7 @@ const Experience = () => {
             <div className="waitrose-titles">
               <h4><em><b>Waitrose & Partners</b></em></h4>
               <h5>Duty & Team Leader</h5>
-              <h6>Currently</h6>
+              <h6>Mar 11 - Present</h6>
             </div>
           </div>
           <div className="waitrose-text">

@@ -29,17 +29,19 @@ h5 {
       list-style-type: none;
       display: inline;
       margin: 8px;
-      font-size: large ;
-      font-weight: bold;
+      font-size: small;
+      // font-weight: bold;
       color: black;
       justify-content: center;
     }
   }
 }
-// .readme {
-//   display: flex;
-//   justify-content: center;
-// }
+.readme {
+  a {
+    text-decoration: none;
+    // color: gold;
+  }
+}
 .carousel-indicators {
   padding-top: 10vh;
   max-height: 0.1%;

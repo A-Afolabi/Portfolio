@@ -1,5 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import project4 from './assets/project-4.png'
+import project3 from './assets/project-3.png'
 import project2 from './assets/project-2.png'
 import project1 from './assets/project-1.png'
 
@@ -10,20 +12,23 @@ const Projects = () => {
         <br />
         <br />
         <h2>Projects</h2>
-
         <Carousel fade>
-
           <Carousel.Item>
             <div className="p-content">
               <h3><em>Horse Outdoors</em></h3>
-              <img
-                className="d-block w-100"
-                src=""
-                alt=""
-              />
+              <a href="https://horseoutdoors.herokuapp.com/">
+                <img
+                  className="d-block w-100"
+                  src={project4}
+                  alt=""
+                />
+              </a>
               <Carousel.Caption>
               </Carousel.Caption>
               <h5>
+                <h6>
+                  Tech used during this project:
+                </h6>
                 <ul>
                   <li>HTML</li>
                   <li>CSS/SCSS</li>
@@ -48,27 +53,32 @@ const Projects = () => {
                 Paired Project - 9 Days
               </h6>
               <p>
-                Horse Outdoors is intended to be a place where a user can view different horse riding holidays and activities in different countries around the world.
-                As well as this, users will be able to post reviews on destinations, log in and out, add an event, and have their own profile page.
+                Full-Stack <b>Python</b>, <b>Django</b> and <b>React</b> app with <b>CRUD</b> functionality.
+                The two of us decided to go along the route of a horse riding app that would allow the user to search for different horse-riding vacations.
+                I worked on most of the back-end individually, particularly the relationships, REST framework and Serializers, with everything else done together.
+                For the front-end, we both worked on the majority together, but I individually built the navigation route between pages and the vacation cards functionality.
               </p>
               <div className="readme">
-                <p>...ReadMe...</p>
+                <a href="https://github.com/A-Afolabi/Project-4/blob/ayo/README.md">ReadMe</a>
               </div>
             </div>
           </Carousel.Item>
-
-
           <Carousel.Item>
             <div className="p-content">
               <h3><em>FaceCook</em></h3>
-              <img
-                className="d-block w-100"
-                src=""
-                alt=""
-              />
+              <a href="https://facecook.herokuapp.com/">
+                <img
+                  className="d-block w-100"
+                  src={project3}
+                  alt=""
+                />
+              </a>
               <Carousel.Caption>
               </Carousel.Caption>
               <h5>
+                <h6>
+                  Tech used during this project:
+                </h6>
                 <ul>
                   <li>HTML</li>
                   <li>CSS/SCSS</li>
@@ -93,18 +103,17 @@ const Projects = () => {
                 Group Project - 9 Days
               </h6>
               <p>
-                FaceCook is a social media application with the main purpose being the ability to share and see other recipes.
-                Without the need to log in, users can search and browse through recipes.
-                With an account and logged in, the additional features a user gets are the ability to create and edit a recipe, leave comments, like recipes and follow other faceCook users.
-                In addition, the ability to customise their own profile page, create meal plans and even generate shopping lists.
+                Full-Stack <b>MongoDB</b>, <b>Express</b>, <b>React</b>, <b>Node.js</b> app with <b>CRUD</b> functionality.
+                Within my group, we quickly settled on an app that allows users to see and create recipes.
+                This would also have the functionality to follow, favourite, and rate recipes and users, with different serving sizes for each recipe.
+                We all worked on the back-end together before splitting up into individual pages for most of the front-end.
+                Collaboration was evident on the front-end, where I worked on most of the recipe page.
               </p>
               <div className="readme">
-                <p>...ReadMe...</p>
+                <a href="https://github.com/A-Afolabi/Project-3/blob/ayo/README.md">ReadMe</a>
               </div>
             </div>
           </Carousel.Item>
-
-
           <Carousel.Item>
             <div className="p-content">
               <h3><em>Disney Characters</em></h3>
@@ -118,6 +127,9 @@ const Projects = () => {
               <Carousel.Caption>
               </Carousel.Caption>
               <h5>
+                <h6>
+                  Tech used during this project:
+                </h6>
                 <ul>
                   <li>HTML</li>
                   <li>CSS/SCSS</li>
@@ -136,16 +148,15 @@ const Projects = () => {
                 Solo Project - 36 Hours
               </h6>
               <p>
-                Disney Characters is a React app where the user has the ability to select a character and see all the films, video games, park attractions, etc., related to that character.
-                This included using an external API.
+                I was able to build a <b>React</b> app that used an external API.
+                This project developed confidence in my ability as I was initially concerned with what I could achieve alone in a day and a half.
+                This was also where I further developed both my time management and planning skills, which led me to sort ideas into MVPs and stretch goals.
               </p>
               <div className="readme">
-                <p>...ReadMe...</p>
+                <a href="https://github.com/A-Afolabi/Project-2/blob/main/README.md">ReadMe</a>
               </div>
             </div>
           </Carousel.Item>
-
-
           <Carousel.Item>
             <div className="p-content">
               <h3><em>Thanos Wins</em></h3>
@@ -161,6 +172,9 @@ const Projects = () => {
               <Carousel.Caption>
               </Carousel.Caption>
               <h5>
+                <h6>
+                  Tech used during this project:
+                </h6>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -175,19 +189,17 @@ const Projects = () => {
               </h6>
               <div className="info">
                 <p>
-                  After quickly settling on Frogger as my game of choice, I started to think about how I could add my theme and how it would work, following the same principles as frogger.
-                  This led me to an Avengers-themed game, but the player is playing as Thanos and seeking the infinity stones at the top of the grid.
-                  Like frogger there would be obstacles, these being the Avengers (heroes) trying to stop him.
+                  Using <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>, I built an Avengers-themed game, based on the classic frogger game.
+                  The project allowed me to put the skills learnt in 3 weeks.
+                  The short timeframe taught me to prioritise my work and focus on what was essential.
                 </p>
                 <div className="readme">
-                  <p>...ReadMe...</p>
+                  <a href="https://github.com/A-Afolabi/Project-1/tree/main#readme">ReadMe</a>
                 </div>
               </div>
             </div>
           </Carousel.Item>
-
         </Carousel>
-
       </section>
     </>
   )
