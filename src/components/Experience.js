@@ -17,7 +17,7 @@ const Experience = () => {
             </div>
             <div className="waitrose-titles">
               <h4><em><b>Waitrose & Partners</b></em></h4>
-              <h5>Duty & Team Leader</h5>
+              <h5>Team Leader</h5>
               <h6>Mar 11 - Present</h6>
             </div>
           </div>

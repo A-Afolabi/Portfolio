@@ -12,11 +12,11 @@ const Projects = () => {
         <br />
         <br />
         <h2>Projects</h2>
-        <Carousel fade>
+        <Carousel fade variant="dark">
           <Carousel.Item>
             <div className="p-content">
               <h3><em>Horse Outdoors</em></h3>
-              <a href="https://horseoutdoors.herokuapp.com/">
+              <a href="https://horseoutdoors.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="d-block w-100"
                   src={project4}
@@ -58,15 +58,16 @@ const Projects = () => {
                 I worked on most of the back-end individually, particularly the relationships, REST framework and Serializers, with everything else done together.
                 For the front-end, we both worked on the majority together, but I individually built the navigation route between pages and the vacation cards functionality.
               </p>
-              <div className="readme">
-                <a href="https://github.com/A-Afolabi/Project-4/blob/ayo/README.md">ReadMe</a>
+              <div className="bottom-links">
+                <a href="https://github.com/A-Afolabi/Project-4/blob/ayo/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
+                <a href="https://horseoutdoors.herokuapp.com/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="p-content">
               <h3><em>FaceCook</em></h3>
-              <a href="https://facecook.herokuapp.com/">
+              <a href="https://facecook.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="d-block w-100"
                   src={project3}
@@ -109,15 +110,16 @@ const Projects = () => {
                 We all worked on the back-end together before splitting up into individual pages for most of the front-end.
                 Collaboration was evident on the front-end, where I worked on most of the recipe page.
               </p>
-              <div className="readme">
-                <a href="https://github.com/A-Afolabi/Project-3/blob/ayo/README.md">ReadMe</a>
+              <div className="bottom-links">
+                <a href="https://github.com/A-Afolabi/Project-3/blob/ayo/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
+                <a href="https://facecook.herokuapp.com/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="p-content">
               <h3><em>Disney Characters</em></h3>
-              <a href="https://disneycharactersga.netlify.app/">
+              <a href="https://disneycharactersga.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="d-block w-100"
                   src={project2}
@@ -152,8 +154,9 @@ const Projects = () => {
                 This project developed confidence in my ability as I was initially concerned with what I could achieve alone in a day and a half.
                 This was also where I further developed both my time management and planning skills, which led me to sort ideas into MVPs and stretch goals.
               </p>
-              <div className="readme">
-                <a href="https://github.com/A-Afolabi/Project-2/blob/main/README.md">ReadMe</a>
+              <div className="bottom-links">
+                <a href="https://github.com/A-Afolabi/Project-2/blob/main/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
+                <a href="https://disneycharactersga.netlify.app/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
               </div>
             </div>
           </Carousel.Item>
@@ -161,7 +164,7 @@ const Projects = () => {
             <div className="p-content">
               <h3><em>Thanos Wins</em></h3>
               <div className="img-atag">
-                <a href="https://a-afolabi.github.io/Project-1/">
+                <a href="https://a-afolabi.github.io/Project-1/" target="_blank" rel="noopener noreferrer">
                   <img
                     className="d-block w-100"
                     src={project1}
@@ -193,8 +196,9 @@ const Projects = () => {
                   The project allowed me to put the skills learnt in 3 weeks.
                   The short timeframe taught me to prioritise my work and focus on what was essential.
                 </p>
-                <div className="readme">
-                  <a href="https://github.com/A-Afolabi/Project-1/tree/main#readme">ReadMe</a>
+                <div className="bottom-links">
+                  <a href="https://github.com/A-Afolabi/Project-1/tree/main#readme/" target="_blank" rel="noopener noreferrer">ReadMe</a>
+                  <a href="https://a-afolabi.github.io/Project-1/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
                 </div>
               </div>
             </div>
