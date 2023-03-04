@@ -144,7 +144,7 @@
     font-weight: bold;
   }
   @media (max-width: 600px) {
-      p{
+      p, li{
         font-size: large;
         @media (max-width: 400px) {
           font-size: medium;
