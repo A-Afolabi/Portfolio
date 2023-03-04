@@ -146,4 +146,12 @@
   h2, h5, h6{
     color: black;
   }
+  @media (max-width: 500px) {
+      p{
+        font-size: large;
+        @media (max-width: 400px) {
+          font-size: medium;
+        }
+    }
+    }
 }

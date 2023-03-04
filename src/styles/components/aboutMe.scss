@@ -4,6 +4,13 @@
   }
   p em{
     color: black;
-    // font-;
+  }
+  @media (max-width: 600px) {
+    p{
+      font-size: large;
+      @media (max-width: 400px) {
+        font-size: medium;
+      }
+    }
   }
 }

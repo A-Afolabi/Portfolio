@@ -52,12 +52,14 @@ const Projects = () => {
               <h6>
                 Paired Project - 9 Days
               </h6>
-              <p>
-                Full-Stack <b>Python</b>, <b>Django</b> and <b>React</b> app with <b>CRUD</b> functionality.
-                The two of us decided to go along the route of a horse riding app that would allow the user to search for different horse-riding vacations.
-                I worked on most of the back-end individually, particularly the relationships, REST framework and Serializers, with everything else done together.
-                For the front-end, we both worked on the majority together, but I individually built the navigation route between pages and the vacation cards functionality.
-              </p>
+              <div className="desc">
+                <p>
+                  Full-Stack <b>Python</b>, <b>Django</b> and <b>React</b> app with <b>CRUD</b> functionality.
+                  The two of us decided to go along the route of a horse riding app that would allow the user to search for different horse-riding vacations.
+                  I worked on most of the back-end individually, particularly the relationships, REST framework and Serializers, with everything else done together.
+                  For the front-end, we both worked on the majority together, but I individually built the navigation route between pages and the vacation cards functionality.
+                </p>
+              </div>
               <div className="bottom-links">
                 <a href="https://github.com/A-Afolabi/Project-4/blob/ayo/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
                 <a href="https://horseoutdoors.herokuapp.com/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
@@ -103,13 +105,15 @@ const Projects = () => {
               <h6>
                 Group Project - 9 Days
               </h6>
-              <p>
-                Full-Stack <b>MongoDB</b>, <b>Express</b>, <b>React</b>, <b>Node.js</b> app with <b>CRUD</b> functionality.
-                Within my group, we quickly settled on an app that allows users to see and create recipes.
-                This would also have the functionality to follow, favourite, and rate recipes and users, with different serving sizes for each recipe.
-                We all worked on the back-end together before splitting up into individual pages for most of the front-end.
-                Collaboration was evident on the front-end, where I worked on most of the recipe page.
-              </p>
+              <div className="desc">
+                <p>
+                  Full-Stack <b>MongoDB</b>, <b>Express</b>, <b>React</b>, <b>Node.js</b> app with <b>CRUD</b> functionality.
+                  Within my group, we quickly settled on an app that allows users to see and create recipes.
+                  This would also have the functionality to follow, favourite, and rate recipes and users, with different serving sizes for each recipe.
+                  We all worked on the back-end together before splitting up into individual pages for most of the front-end.
+                  Collaboration was evident on the front-end, where I worked on most of the recipe page.
+                </p>
+              </div>
               <div className="bottom-links">
                 <a href="https://github.com/A-Afolabi/Project-3/blob/ayo/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
                 <a href="https://facecook.herokuapp.com/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
@@ -149,11 +153,13 @@ const Projects = () => {
               <h6>
                 Solo Project - 36 Hours
               </h6>
-              <p>
-                I was able to build a <b>React</b> app that used an external API.
-                This project developed confidence in my ability as I was initially concerned with what I could achieve alone in a day and a half.
-                This was also where I further developed both my time management and planning skills, which led me to sort ideas into MVPs and stretch goals.
-              </p>
+              <div className="desc">
+                <p>
+                  I was able to build a <b>React</b> app that used an external API.
+                  This project developed confidence in my ability as I was initially concerned with what I could achieve alone in a day and a half.
+                  This was also where I further developed both my time management and planning skills, which led me to sort ideas into MVPs and stretch goals.
+                </p>
+              </div>
               <div className="bottom-links">
                 <a href="https://github.com/A-Afolabi/Project-2/blob/main/README.md" target="_blank" rel="noopener noreferrer">ReadMe</a>
                 <a href="https://disneycharactersga.netlify.app/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
@@ -190,16 +196,16 @@ const Projects = () => {
               <h6>
                 Solo Project - 7 Days
               </h6>
-              <div className="info">
+              <div className="desc">
                 <p>
                   Using <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>, I built an Avengers-themed game, based on the classic frogger game.
                   The project allowed me to put the skills learnt in 3 weeks.
                   The short timeframe taught me to prioritise my work and focus on what was essential.
                 </p>
-                <div className="bottom-links">
-                  <a href="https://github.com/A-Afolabi/Project-1/tree/main#readme/" target="_blank" rel="noopener noreferrer">ReadMe</a>
-                  <a href="https://a-afolabi.github.io/Project-1/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
-                </div>
+              </div>
+              <div className="bottom-links">
+                <a href="https://github.com/A-Afolabi/Project-1/tree/main#readme/" target="_blank" rel="noopener noreferrer">ReadMe</a>
+                <a href="https://a-afolabi.github.io/Project-1/" target="_blank" rel="noopener noreferrer">Open In Browser</a>
               </div>
             </div>
           </Carousel.Item>
