@@ -38,7 +38,7 @@ const Experience = () => {
             <div className="bbk-titles">
               <h4><em><b>Birkbeck, University of London</b></em></h4>
               <h5>Business BSc</h5>
-              <h6>July 22</h6>
+              <h6>Graduated in July 22</h6>
             </div>
           </div>
           <div className="bbk-text">
