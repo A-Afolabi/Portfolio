@@ -74,6 +74,12 @@ const Skills = () => {
             </div>
           </div>
           <div className="icon">
+            <img className="image" src={mongo} alt="" />
+            <div className="content">
+              <div className="text">MongoDB</div>
+            </div>
+          </div>
+          <div className="icon">
             <img className="image" src={insomnia} alt="" />
             <div className="content">
               <div className="text">Insomnia</div>
@@ -143,12 +149,6 @@ const Skills = () => {
             <img className="image" src={django} alt="" />
             <div className="content">
               <div className="text">Django</div>
-            </div>
-          </div>
-          <div className="icon">
-            <img className="image" src={mongo} alt="" />
-            <div className="content">
-              <div className="text">MongoDB</div>
             </div>
           </div>
           <div className="icon">

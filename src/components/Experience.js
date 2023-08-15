@@ -17,14 +17,14 @@ const Experience = () => {
             </div>
             <div className="waitrose-titles">
               <h4><em><b>Waitrose & Partners</b></em></h4>
-              <h5>Team Leader</h5>
+              <h5>Duty Partner</h5>
               <h6>Mar 11 - Present</h6>
             </div>
           </div>
           <div className="waitrose-text">
             <p>
               I have developed over a decade of experience in customer service and my ability to manage teams.
-              While working as a Team Leader at Waitrose I am regularly left to manage many partners.
+              While working as a Duty Partner at Waitrose I am regularly left to manage many partners.
               This role has meant that I constantly liaise with management, including decisions I have made on the operations of the branch daily, ideas going forward, and potential solutions or opportunities I may have discovered.
             </p>
           </div>
