@@ -43,8 +43,8 @@ const Experience = () => {
           </div>
           <div className="bbk-text">
             <p>
-              University provided me with more of a theoretical understanding of the business world, in addition to time-constraint tasks and working on assignments within a group or individually.
-              Studying business also provided me with a greater understanding of business needs, as well as consumer ones, when it comes to products and services.
+              Birkbeck provided me with more of a theoretical understanding of the business world, in addition to time-constraint tasks and working on assignments within a group or individually.
+              Studying business also gave me a greater understanding of business needs and consumer ones when it comes to products and services.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Experience = () => {
           <div className="ga-text">
             <p>
               A 3-month, full-time, immersive, remote bootcamp, where I was introduced to new technologies by instructors.
-              Through classes, workshops, daily homework and projects (individual, paired and group), I was able to develop many technical skills.
+              I developed many technical skills through classes, workshops, daily homework and projects (individual, paired and group).
             </p>
           </div>
         </div>
