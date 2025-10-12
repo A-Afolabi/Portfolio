@@ -10,6 +10,27 @@ const Experience = () => {
       <br />
       <h2>Experience & Education</h2>
       <div className="experience">
+        <div className="nhs">
+          <div className="nhs-titlesImg">
+            <div className="nhs-img">
+              <img src={waitrose} alt="" />
+            </div>
+            <div className="nhs-titles">
+              <h4><em><b>Whittington Health NHS Trust</b></em></h4>
+              <h5>IM&T Support Officer</h5>
+              <h6>May 25 - Present</h6>
+            </div>
+          </div>
+          <div className="nhs-text">
+            <p>
+              I work within the Trust's IT department supporting large-scale enterprise systems used by over 4,000 staff.
+              My role focuses on automation, secure access management, and process optimisation, giving me hands-on experience with system reliability and scalability - principles I apply directly to software development.
+              I've contributed to the Windows 11 rollout, streamlined setup processes through scripting and documentation, and resolved complex incidents via ServiceNow, strengthening my debugging, collaboration, and user-focused problem-solving skills.
+              This experience has deepened my understanding of how secure, maintainable software supports real-world operations at scale.
+            </p>
+          </div>
+        </div>
+        <br />
         <div className="waitrose">
           <div className="waitrose-titlesImg">
             <div className="waitrose-img">
