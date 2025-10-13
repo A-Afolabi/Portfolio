@@ -9,6 +9,7 @@
     border-radius: 7%;
     padding-bottom: 2vh;
   }
+  display: flex;
 }
 section h2{
   color: black;
@@ -19,33 +20,52 @@ h3{
   font-size: xx-large;
   font-weight: bolder;
   justify-content: center;
+  @media (max-width: 440px) {
+    text-align: center;
+  }
 }
 h5 {
   ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 0;
     li{
       list-style-type: none;
       display: inline;
       margin: 8px;
-      font-size: small;
+      font-size: medium;
       // font-weight: bold;
-      color: black;
+      // color: darkgray;
       justify-content: center;
     }
   }
 }
-.readme {
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 420px) {
+    display: flex;
+    font-size: medium;
+  }
   a {
     text-decoration: none;
     // color: gold;
   }
 }
 .carousel-indicators {
-  padding-top: 10vh;
-  max-height: 0.1%;
+  bottom: -7vh;
 }
 .carousel-control-prev, .carousel-control-next {
   width: 10%;
+}
+@media (max-width: 600px) {
+.desc {
+  p{
+    font-size: large;
+    @media (max-width: 400px) {
+      font-size: medium;
+    }
+  }
+}
 }

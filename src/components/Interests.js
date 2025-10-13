@@ -70,7 +70,7 @@ const Interests = () => {
           <div className="currently">
             <h5>Currently:</h5>
             <p>
-              The Last of Us (TV Series)
+              Fallout (TV Series)
             </p>
           </div>
         </div>
