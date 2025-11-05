@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a67efdb9.css",
-    "main.js": "/Portfolio/static/js/main.4d16fe18.js",
+    "main.css": "/Portfolio/static/css/main.4ac58343.css",
+    "main.js": "/Portfolio/static/js/main.4c28c995.js",
     "static/media/project-1.png": "/Portfolio/static/media/project-1.fa21d99a05ebd90f8fb0.png",
     "static/media/project-4.png": "/Portfolio/static/media/project-4.1bc37eaf6484229e3252.png",
     "static/media/project-3.png": "/Portfolio/static/media/project-3.7a48c609b1a50a9cb3fc.png",
@@ -25,14 +25,15 @@
     "static/media/postgreSQL.png": "/Portfolio/static/media/postgreSQL.6c5d698f195dac2fe5af.png",
     "static/media/django.png": "/Portfolio/static/media/django.82147cd026cc41735e7d.png",
     "static/media/Birkbeck.webp": "/Portfolio/static/media/Birkbeck.28e6f403f4a5cb8801ed.webp",
+    "static/media/WhittingtonLogo.webp": "/Portfolio/static/media/WhittingtonLogo.400bc3b066155cb0df8e.webp",
     "static/media/npm.png": "/Portfolio/static/media/npm.061e65dec1a5ceee089a.png",
     "static/media/bootstrap.svg": "/Portfolio/static/media/bootstrap.d180fe4cd44732fd70b35f650a76b99c.svg",
     "index.html": "/Portfolio/index.html",
-    "main.a67efdb9.css.map": "/Portfolio/static/css/main.a67efdb9.css.map",
-    "main.4d16fe18.js.map": "/Portfolio/static/js/main.4d16fe18.js.map"
+    "main.4ac58343.css.map": "/Portfolio/static/css/main.4ac58343.css.map",
+    "main.4c28c995.js.map": "/Portfolio/static/js/main.4c28c995.js.map"
   },
   "entrypoints": [
-    "static/css/main.a67efdb9.css",
-    "static/js/main.4d16fe18.js"
+    "static/css/main.4ac58343.css",
+    "static/js/main.4c28c995.js"
   ]
 }
