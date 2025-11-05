@@ -2,6 +2,7 @@ import React from 'react'
 import waitrose from './assets/Waitrose&Partners.svg.png'
 import bbk from './assets/Birkbeck.webp'
 import ga from './assets/GeneralAssembly.png'
+import whit from './assets/WhittingtonLogo.webp'
 
 const Experience = () => {
   return (
@@ -13,12 +14,12 @@ const Experience = () => {
         <div className="nhs">
           <div className="nhs-titlesImg">
             <div className="nhs-img">
-              <img src={waitrose} alt="" />
+              <img src={whit} alt="" />
             </div>
             <div className="nhs-titles">
               <h4><em><b>Whittington Health NHS Trust</b></em></h4>
               <h5>IM&T Support Officer</h5>
-              <h6>May 25 - Present</h6>
+              <h6>May 25 - Oct 25</h6>
             </div>
           </div>
           <div className="nhs-text">

@@ -1,4 +1,52 @@
 .experience{
+  .nhs{
+    .nhs-img{
+      display: flex;
+      justify-content: flex-end;
+      img{
+        width: 65%;
+        @media (max-width: 770px) {
+          width: 75%;
+        }
+      }
+      @media (max-width: 550px) {
+          display: flex;
+          justify-content: center;
+      }
+    }
+    .nhs-titlesImg{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      white-space: nowrap;
+      padding-bottom: 1.5vh;
+      margin-top: 40px;
+      @media (max-width: 550px) {
+        display: block;
+        img{
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    .bbk-titles{
+      padding-top: 3vh;
+      @media (max-width: 550px) {
+        h4{
+        display: none;
+        }
+        h5{
+          display: flex;
+          justify-content: center;
+          font-weight: bolder;
+          font-size: 4vh;
+        }
+        padding-top: 0%;
+        font-weight: bolder;
+        font-size: 50%;
+      }
+    }
+  }
   .waitrose{
     .waitrose-img{
       @media (max-width: 550px) {
